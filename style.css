@@ -183,3 +183,23 @@ nav ul li{
     margin: 12px 0;
     color: #010e06f6;
 }
+
+/* extra-bonus part css start from here  */
+.extra-bonuspart{
+    background:#f9fafb;
+    max-width: 1620px;
+    width: 71%;
+    margin: 0 auto;
+}
+
+.extra-bonuspart h2{
+    font-size: 34px;
+    margin-bottom: 13px;
+}
+.extra-bonuspart p{
+    color: #64748b;
+    margin-bottom: 13px;
+}
+.extra-bonuspart .btn{
+    margin-bottom: 13px;
+}
