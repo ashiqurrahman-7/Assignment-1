@@ -94,3 +94,47 @@ nav ul li{
 .hero-button .btn{
     margin-right: 10px;
 }
+.hero-button .btn-secondary{
+    border: 2px solid #c7cec9;
+    background: transparent;
+}
+.hero-button .btn-secondary:hover{
+    color: red;
+    border: 2px solid goldenrod;
+}
+/* hero section css end here  */
+
+/* card section start  from here  */
+.card-section{
+    padding: 30px 60px;
+    text-align: center;
+}
+.card-section h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.card-section p{
+    color: #64748b;
+    font-size: 13px;
+}
+.user-cards{
+    
+    display: flex;
+    gap: 25px;
+    max-width: 1820px;
+    width: 81%;
+    margin: 0 auto;
+}
+.user-cards .card{
+    margin-top: 40px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.103) ;
+    border-radius: 12px;
+}
+.card h3{
+    margin: 15px 0;
+}
+.card p{
+    font-size: 14px;
+}
+
