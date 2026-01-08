@@ -54,3 +54,43 @@ nav ul li{
     cursor: pointer;
     background-color: rgb(0, 102, 255);
 }
+
+
+
+/* hero section css start from here  */
+
+.hero{
+    background: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 110px 20px;
+}
+
+.hero .sub-title{
+    background-color: white;
+    color: green;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.hero h1{
+    font-size: 52px;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+.hero .hero-heading{
+    color: #22c55e;
+}
+
+.hero p{
+    max-width: 525px;
+    /* background-color: red; */
+    margin: 0 auto;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.hero-button .btn{
+    margin-right: 10px;
+}
