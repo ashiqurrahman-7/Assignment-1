@@ -75,7 +75,7 @@ nav ul li a:hover{
     width: 3px;
 }
 .hero h1{
-    font-size: 52px;
+    font-size: 55px;
     margin: 20px 0;
     line-height: 1.2;
 }
@@ -85,7 +85,7 @@ nav ul li a:hover{
 .hero p{
     max-width: 525px;
     margin: 0 auto 25px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
 }
 .hero-button{
@@ -114,7 +114,7 @@ nav ul li a:hover{
     text-align: center;
 }
 .card-section h2{
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 10px;
 }
 .card-section p{
@@ -216,19 +216,21 @@ nav ul li a:hover{
 }
 .extra-bonuspart p{
     color: #64748b;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .extra-bonuspart .btn{
+    margin-top: 10px;
     display: inline-flex;
     align-items: center;
     gap: 8px;
 }
+.extra-bonuspart .bonus-footer p{
+    margin-top: 8px;
+}
 .dot{
     font-size: 40px;
 }
-.extra-bonuspart .bonus-footer p{
-    margin-top: 20px;
-}
+
 
 /* footer section css start from here  */
 footer{
@@ -285,7 +287,7 @@ footer{
     opacity: 0.85;
 }
 footer hr{
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
 }
 footer .copyright{
