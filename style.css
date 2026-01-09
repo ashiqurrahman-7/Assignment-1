@@ -7,6 +7,8 @@
 body{
     /* background: #ffffff;
     background-color: #of172a; */
+    width: 1920px;
+    max-width: 100%;
 }
 
 header{
@@ -198,8 +200,99 @@ nav ul li{
 }
 .extra-bonuspart p{
     color: #64748b;
-    margin-bottom: 13px;
+    line-height: 0.5;
+    margin-bottom: 14px;
+
+
 }
 .extra-bonuspart .btn{
-    margin-bottom: 13px;
+    margin-top: 13px;
+}
+.dot{
+    font-size: 40px;
+}
+.extra-bonuspart .bonus-footer p{
+    margin-bottom: 69px;
+    padding-bottom: 40px;
+}
+
+/* footer section start from here  */
+
+footer {
+  background-color: rgba(2, 2, 73, 0.932);
+}
+
+/* main footer layout */
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /* ✅ vertical center */
+  margin: 10px 90px;
+  color: white;
+}
+
+/* logo */
+.footer-logo img {
+  height: 60px;
+  margin-top: 45px;
+}
+
+/* right side container */
+.social-area {
+  text-align: right;
+}
+
+/* social text */
+.social-area .social-title {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  margin-top: 45px;
+}
+
+/* buttons row */
+.social-buttons {
+  display: flex;
+  gap: 15px;
+  /* justify-content:flex-end; */
+}
+
+/* button style */
+.social-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.social-btn img {
+  width: 22px;
+}
+
+/* colors */
+.facebook { background-color: #d0d3d6; }
+.twitter  { background-color: #e7e9eb; }
+.linkedin { background-color: #e7e9eb; }
+
+.social-btn:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
+}
+
+/* copyright */
+footer .copyright {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* hr */
+footer hr {
+  width: 91%;
+  margin: 50px auto 20px;
 }
